@@ -1,0 +1,59 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1808ff;
+    color: #000000;
+    line-height: 1.6;
+}
+ 
+header {
+    background-color: #063470; /* Marrom terroso */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+ 
+header h1 {
+    font-size: 2.5em;
+}
+ 
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+ 
+main {
+    padding: 20px;
+}
+ 
+.activity {
+    background-color: #b60ccc;
+    border: 2px solid #5e0568; 
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ 
+.activity h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #000000; /* Tom mais escuro de marrom */
+}
+
+img{
+    width: 300px;
+    border-radius: 50%; /* Forma esférica */
+    border: 5px solid #5735b3; /* Borda azul escura */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Espaço entre a borda e a imagem */
+}
